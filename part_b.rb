@@ -10,7 +10,7 @@ class Team
   end
 
   def add_player(team, new_player)
-    @team.players << new_player
+    @players << new_player
   end
 
 end
